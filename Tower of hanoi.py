@@ -5,10 +5,6 @@ def tower(disk, source, auxiliary, dest):
     tower(disk - 1, source, dest, auxiliary)
     print(f"Move disk {disk} from {source} to {dest}")
     tower(disk - 1, auxiliary, source, dest)
-
-
-
-
 disk = int(input("Enter the number of disks: "))
-print("The sequence of moves involved in the Tower of Hanoi are:")
+print("The Tower of Hanoi are:")
 tower(disk, 'A', 'B', 'C')

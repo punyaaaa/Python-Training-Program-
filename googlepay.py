@@ -1,6 +1,6 @@
 import qrcode
 
-upi_id = "@okaxis"
+upi_id = "sampleupi@okaxis"
 name = "Punya Y Poojary"
 amount = "100"
 
